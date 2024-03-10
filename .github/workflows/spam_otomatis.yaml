@@ -2,7 +2,7 @@ name: Kirim API Req per 5 Menit
 
 on:
   schedule:
-    - cron: */4 * * * *
+    - cron: '*/4 * * * *'
   push:
     branch: "main"
   
